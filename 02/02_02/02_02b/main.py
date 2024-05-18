@@ -12,4 +12,5 @@ sum = 0
 for i in range(NUM_OF_STUDENTS):
   sum += student_pet_count_list[i]
 
-average = NUM_OF_STUDENTS / sum
+average = sum / NUM_OF_STUDENTS
+print(average)
